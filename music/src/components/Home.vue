@@ -1,21 +1,18 @@
 <template>
   <div>
-    <Home>
-      <h1 slot="one">喜喜喜喜</h1>
-    </Home>
+    123
+    <header>
+      <slot name="one"></slot>
+    </header>
   </div>
 </template>
 <script>
-import Home from '@/components/Home'
 export default {
   data () {
     return {
 
     }
   },
-  components: {
-    Home
-  }
 }
 </script>
 
