@@ -3,6 +3,7 @@
     <Mheader></Mheader>
     <tab></tab>
     <router-view></router-view>
+    <div>123</div>
   </div>
 </template>
 
